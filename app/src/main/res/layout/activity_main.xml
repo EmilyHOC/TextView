@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#000000">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="文本框实例"
+        android:autoLink="email"
+        android:height="50px"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1"
+        android:text="带图片的TextView"
+        android:drawableTop="@drawable/ic_launcher_background"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:width="300px"
+        android:text="多行文本:喝咖啡的刷卡积分很疯狂但很快就和 就回复"
+        android:textColor="#0f0"
+        android:textSize="20px" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:textColor="#0f0"
+        android:textSize="20px"
+        android:width="300px"
+        android:text="单行文本"
+        android:singleLine="true"/>
+
+
+
+</LinearLayout>
